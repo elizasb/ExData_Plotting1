@@ -20,7 +20,7 @@ data$timestamp<-strptime(Datetime,format="%d/%m/%Y %H:%M:%S")
 # Plot 3 - Time series of energy sub metering (line overlay)
 png("plot3.png",width = 480, height = 480, units = "px") 
 plot(data$timestamp,data$Sub_metering_1,type="n",xlab="",
-     ylab='Energy Sub Metering')
+     ylab='Energy sub metering')
 lines(data$timestamp,data$Sub_metering_1,type="l",col='black')
 lines(data$timestamp,data$Sub_metering_2,type="l",col='red')
 lines(data$timestamp,data$Sub_metering_3,type="l",col='blue')

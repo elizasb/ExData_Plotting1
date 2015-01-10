@@ -28,7 +28,7 @@ with(data,{
   plot(timestamp,Voltage,type="n",xlab="datetime")
   lines(timestamp,Voltage,type="l")
   #graph3
-  plot(timestamp,Sub_metering_1,type="n",xlab="",ylab='Energy Sub Metering')
+  plot(timestamp,Sub_metering_1,type="n",xlab="",ylab='Energy sub metering')
   lines(timestamp,Sub_metering_1,type="l",col='black')
   lines(timestamp,Sub_metering_2,type="l",col='red')
   lines(timestamp,Sub_metering_3,type="l",col='blue')
